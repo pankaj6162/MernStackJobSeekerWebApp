@@ -6,7 +6,8 @@ export const sendToken = (user, statusCode, res, message) => {
 
   const token = user.getJWTToken();
   const options = {
-    expires: new Date(Date.now() + 40 * 60 * 60 * 1000),
+    expires: new Date(Date.now() + 40 * 60 * 60 * 100000),
+    secure: true;
     httpOnly: true, // Set httpOnly to true
   };
 
