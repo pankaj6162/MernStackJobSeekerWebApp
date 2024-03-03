@@ -58,17 +58,20 @@ export const logout = catchAsyncErrors(async (req, res, next) => {
 });
 
 
-export const getUser = catchAsyncErrors((req, res, next) => {
+export const getUser = catchAsyncErrors(async (req, res, next) => {
   try {
-    const user = req.user;
-    if (!user) {
-      throw new ErrorHandler('User not found', 404);
+    // Check if user is authenticated
+    if (!req.user) {
+      return next(new ErrorHandler('User not found', 401));
     }
+    
+    // User is authenticated, proceed to send user data
     res.status(200).json({
       success: true,
-      user,
+      user: req.user,
     });
   } catch (error) {
     next(error);
   }
 });
+
