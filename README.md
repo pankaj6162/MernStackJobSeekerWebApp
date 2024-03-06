@@ -2,67 +2,16 @@
 
 ## Website Preview
 
-<p align="center"> 
-  <kbd>
-    <img src="/frontend/public/login.png >
-  </a>
-  </kbd>
-</p>
+![Login Page](/frontend/public/login.png)
 
-<p align="center"> 
-  <kbd>
-    <img src="/frontend/public/Home.png >
-  </a>
-  </kbd>
-</p>
+![Home Page](/frontend/public/Home.png)
 
-<p align="center"> 
-  <kbd>
-   <img src="/frontend/public/JobDetails.png >
-  </a>
-  </kbd>
-</p>
+![Job Details Page](/frontend/public/JobDetails.png)
 
-<p align="center"> 
-  <kbd>
-   <img src="/frontend/public/Jobs.png >
-  </a>
-  </kbd>
-</p>
+![Jobs Page](/frontend/public/Jobs.png)
 
-<p align="center"> 
-  <kbd>
-   <img src="/frontend/public/MyApplications.png >
-  </a>
-  </kbd>
-</p>
+![My Applications Page](/frontend/public/MyApplications.png)
 
-<p align="center"> 
-  <kbd>
-   <img src="/frontend/public/register.png >
-  </a>
-  </kbd>
-</p>
+![Register Page](/frontend/public/register.png)
 
-<p align="center"> 
-  <kbd>
-   <img src="/frontend/public/PostJob.png >
-  </a>
-  </kbd>
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+![Post Job Page](/frontend/public/PostJob.png)
