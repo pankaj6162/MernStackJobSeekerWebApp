@@ -1,20 +1,68 @@
 # MernStackJobSeekerWebApp
+
 ## Website Preview
 
-<img src="/frontend/public/login.png >
+<p align="center"> 
+  <kbd>
+    <img src="/frontend/public/login.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/Home.png >
+<p align="center"> 
+  <kbd>
+    <img src="/frontend/public/Home.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/JobDetails.png >
+<p align="center"> 
+  <kbd>
+   <img src="/frontend/public/JobDetails.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/jobpk.png >
+<p align="center"> 
+  <kbd>
+   <img src="/frontend/public/Jobs.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/Jobs.png >
+<p align="center"> 
+  <kbd>
+   <img src="/frontend/public/MyApplications.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/MyApplications.png >
+<p align="center"> 
+  <kbd>
+   <img src="/frontend/public/register.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/register.png >
+<p align="center"> 
+  <kbd>
+   <img src="/frontend/public/PostJob.png >
+  </a>
+  </kbd>
+</p>
 
-<img src="/frontend/public/PostJob.png >
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
