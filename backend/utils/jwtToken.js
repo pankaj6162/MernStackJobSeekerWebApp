@@ -4,7 +4,8 @@ export const sendToken = (user, statusCode, res, message) => {
     expires: new Date(
       Date.now() + 40*60*60*1000,
     ),
-    httpOnly: true, // Set httpOnly to true
+    httpOnly: true,
+    secure: true, // Set httpOnly to true
   };
 
   res.status(statusCode).cookie("token", token, options).json({
