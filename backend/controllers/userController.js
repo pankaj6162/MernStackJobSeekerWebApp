@@ -47,6 +47,7 @@ export const logout = catchAsyncErrors(async (req, res, next) => {
   res
     .status(201)
     .cookie("token", "", {
+       secure: true,
       httpOnly: true,
       secure: true,
       expires: new Date(Date.now()),
@@ -58,10 +59,20 @@ export const logout = catchAsyncErrors(async (req, res, next) => {
 });
 
 
-export const getUser = catchAsyncErrors((req, res, next) => {
-  const user = req.user;
-  res.status(200).json({
-    success: true,
-    user,
-  });
+export const getUser = catchAsyncErrors(async (req, res, next) => {
+  try {
+    // Check if user is authenticated
+    if (!req.user) {
+      return next(new ErrorHandler('User not found', 401));
+    }
+    
+    // User is authenticated, proceed to send user data
+    res.status(200).json({
+      success: true,
+      user: req.user,
+    });
+  } catch (error) {
+    next(error);
+  }
 });
+
